@@ -17,6 +17,9 @@ elif difficulty == "2":
 elif difficulty == "3":
     print("You chose Hard difficulty.")
     chance = 3
+else:
+    print("Invalid choice. Defaulting to Medium.")
+    chance = 5
 
 attempts = 0
 
